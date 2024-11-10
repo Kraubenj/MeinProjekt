@@ -1,0 +1,12 @@
+#Repository auf Github erstellen
+# Kopiere den Schlüssel und füge ihn in GitHub ein
+ssh-keygen -t rsa -b 4096 -C "deine-email@example.com"
+cat ~/.ssh/id_rsa.pub  
+git clone
+git checkout -b feature/datenbank-datei
+# Datei erstellen und committen
+git checkout main
+git pull origin main
+git checkout feature/datenbank-datei
+git merge main
+# Konflikte lösen
